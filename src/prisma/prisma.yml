@@ -1,0 +1,10 @@
+# the HTTP endpoint for the demo server on Prisma Cloud
+endpoint: ""
+
+# points to the file that contains your datamodel
+datamodel: datamodel.prisma
+
+# specifies language & location for the generated Prisma client
+generate:
+  - generator: javascript-client
+    output: ./client
